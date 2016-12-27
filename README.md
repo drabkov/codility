@@ -1,1 +1,1 @@
-# codility.com
+# Tasks from codility.com
