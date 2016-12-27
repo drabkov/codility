@@ -1,4 +1,4 @@
-class Solution {
+class BinaryGap {
     public int solution(int N) {
         String str = Integer.toString(N, 2);
     
