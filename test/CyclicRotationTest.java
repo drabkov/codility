@@ -5,6 +5,7 @@
  */
 
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -31,7 +32,8 @@ public class CyclicRotationTest {
      */
     @Test
     public void testSolution() {
-        
+        CyclicRotation cr = new CyclicRotation();
+        Assert.assertArrayEquals(new int[] {9, 7, 6, 3, 8}, cr.solution(new int[] {3, 8, 9, 7, 6}, 3));
     }
     
 }
