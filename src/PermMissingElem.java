@@ -13,7 +13,7 @@ class PermMissingElem {
             }
             missing++;
         }
-        //
+        //не нашли возвращаем последний +1
         return A[A.length-1]+1;
     }
 }

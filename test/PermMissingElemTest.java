@@ -21,6 +21,9 @@ public class PermMissingElemTest {
      */
     @Test
     public void testSolution() {
-    }
-    
+        PermMissingElem o = new PermMissingElem();
+        assertEquals(4, o.solution(new int[]{2, 3, 1, 5}));
+        assertEquals(1, o.solution(new int[]{2}));
+        assertEquals(5, o.solution(new int[]{2, 3, 1, 4}));
+    }    
 }
